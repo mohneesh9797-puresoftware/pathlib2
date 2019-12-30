@@ -39,13 +39,6 @@ matrix:
     - arch: arm64
       python: "2.7"
       dist: xenial
-    - arch: arm64
-      python: "2.6"
-      dist: trusty
-    - python: "pypy"
-      dist: xenial
-    - python: "pypy3"
-      dist: xenial
   allow_failures:
   # pypy occasionally has some bugs
   - python: "pypy"
